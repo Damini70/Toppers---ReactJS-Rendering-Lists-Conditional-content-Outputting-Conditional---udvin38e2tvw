@@ -50,7 +50,7 @@ class App extends Component {
 				   				
 				   				<div key={index} className={item.percent>=90?"bg-pink":""}>
 					   				<div className="name">
-					   					<p>{item.name}</p> //Write code to display name
+					   					<p>{item.name}</p>
 					   				</div>
 					   				<div className="percent">
 										<p>{item.percent.toFixed(2)}</p>
